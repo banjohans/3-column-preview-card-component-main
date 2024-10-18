@@ -1,0 +1,143 @@
+/*
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  */
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from parent element, or you can define a specific color */
+}
+a:hover {
+  color: inherit; /* Ensure no color change on hover, or set a custom color */
+}
+a:visited {
+  color: inherit; /* Remove visited color style */
+}
+a:active {
+  color: inherit; /* Remove active color style */
+}
+
+#card-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 130px 0px 130px 20px;
+}
+
+#sedan-card {
+  background-color: hsl(31, 77%, 52%);
+  color: rgb(255, 255, 255);
+}
+#suv-card {
+  background-color: hsl(184, 100%, 22%);
+  color: rgb(255, 255, 255);
+}
+#luxury-card {
+  background-color: hsl(179, 100%, 13%);
+  color: rgb(255, 255, 255);
+}
+#car-header {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.headings {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  padding: 0px 30px 0px 30px;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid transparent;
+  border-radius: 25px;
+
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+#sedan-car-btn {
+  color: hsl(31, 77%, 52%);
+}
+#sedan-car-btn:hover {
+  color: hsl(0, 0%, 95%);
+}
+#suv-car-btn {
+  color: hsl(184, 100%, 22%);
+}
+#suv-car-btn:hover {
+  color: hsl(0, 0%, 95%);
+}
+#luxury-car-btn {
+  color: hsl(179, 100%, 13%);
+}
+#luxury-car-btn:hover {
+  color: hsl(0, 0%, 95%);
+}
+
+#button-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.card-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.img-settings {
+  padding: 40px 0px 15px 30px;
+  width: 64px;
+  height: 40px;
+}
+
+.infotext {
+  padding: 0px 30px 10px 30px;
+}
+
+@media (max-width: 768px) {
+  #card-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#attribution {
+  text-align: center;
+  margin-top: auto;
+  padding: 30px 30px 30px 30px;
+  width: 100%;
+  background-color: rgb(164, 166, 166);
+}
