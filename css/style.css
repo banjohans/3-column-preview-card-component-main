@@ -1,22 +1,22 @@
-/*
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-
-  font-family: "Big Shoulders Display", sans-serif;
-  font-weight: 700;
-  */
-
 body {
   background-color: hsl(0, 0%, 95%);
-  font-size: 15px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
+  font-size: 1rem;
+  /* font-family: "Lexend Deca", sans-serif; */
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 800;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+/* .big-shoulders-display-<uniquifier> {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
 
 a {
   text-decoration: none; /* Remove underline */
@@ -67,10 +67,10 @@ a:active {
   background-color: hsl(0, 0%, 95%);
   border: 2px solid transparent;
   border-radius: 25px;
-
-  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.8rem;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 22px;
   text-align: center;
   cursor: pointer;
   box-shadow: none;
@@ -105,7 +105,7 @@ a:active {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 40px 0px;
 }
 
 .card-class {
@@ -113,7 +113,7 @@ a:active {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  max-width: 350px;
+  max-width: 230px;
   height: auto;
 }
 
@@ -124,7 +124,12 @@ a:active {
 }
 
 .infotext {
-  padding: 0px 30px 10px 30px;
+  padding: 0px 30px 30px 30px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 200;
+  font-size: 0.8rem;
+  opacity: 70%;
+  line-height: 20px;
 }
 
 @media (max-width: 768px) {
